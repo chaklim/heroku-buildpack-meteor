@@ -5,8 +5,7 @@ BUILD_DIR=$1
 cat <<-YAML
 ---
 addons:
-  - mongohq:sandbox
 config_vars:
 default_process_types:
-  web: PATH=.meteor/checkout:bin:/usr/local/bin:/usr/bin:/bin NODE_PATH=.meteor/checkout/dev_bundle/lib/node_modules MONGO_URL=\$MONGOHQ_URL .meteor/checkout/dev_bundle/bin/node .meteor/local/build/main.js
+  web: PATH=.meteor/checkout:bin:/usr/local/bin:/usr/bin:/bin NODE_PATH=.meteor/checkout/dev_bundle/lib/node_modules .meteor/checkout/dev_bundle/bin/node .meteor/local/build/main.js
 YAML
