@@ -1,5 +1,6 @@
 # Heroku buildpack for meteor
 
+**NOTE** This fork doesn't force you to use Heroku's MongoHQ install.
 **NOTE** This fork works with Meteor v0.6.0, but has not been tested (and probably won't work) with older versions of Meteor
 
 ## Usage
