@@ -1,12 +1,12 @@
 # Heroku buildpack for meteor
 
-**NOTE** This fork doesn't force you to use Heroku's MongoHQ install.
-**NOTE** This fork works with Meteor v0.6.0, but has not been tested (and probably won't work) with older versions of Meteor
+**NOTE** This fork doesn't force you to use Heroku's MongoHQ / MongoLab install (It needs your credit card)
+**NOTE** This fork works with Meteor v0.6.4, but has not been tested (and probably won't work) with older versions of Meteor
 
 ## Usage
 
 ```
-% heroku create --stack cedar --buildpack https://github.com/jordansissel/heroku-buildpack-meteor.git
+% heroku create --stack cedar --buildpack https://github.com/chaklim/heroku-buildpack-meteor.git
 ```
 
 ## Example
@@ -35,7 +35,7 @@ Initialized empty Git repository in /tmp/a/wordplay/.git/
 Create your heroku app
 
 ```
-% heroku create --stack cedar --buildpack https://github.com/jordansissel/heroku-buildpack-meteor.git
+% heroku create <yourAppName> --stack cedar --buildpack https://github.com/chaklim/heroku-buildpack-meteor.git
 ```
 
 Configure your ROOT_URL setting
