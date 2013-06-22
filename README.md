@@ -43,10 +43,15 @@ Configure your ROOT_URL setting
 % heroku config:add ROOT_URL=<insert_url_created_above_here>
 ```
 
+Configure your MONGO_URL setting (use MongoHQ as an example, you may replace it with other MongoDB services)
+```
+% heroku config:add MONGO_URL=mongodb://<user>:<password>@dharma.mongohq.com:10014/<username>
+```
+
 Deploy it
 
 ```
-% git push heroku
+% git push heroku master
 ```
 
 Enjoy!
